@@ -19,7 +19,7 @@ from ...utils.import_utils import define_import_structure
 
 if TYPE_CHECKING:
     from .configuration_align import *
-    from .modeling_align import *
+    from .model import *
     from .processing_align import *
 else:
     import sys
